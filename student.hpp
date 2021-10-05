@@ -8,7 +8,7 @@ using namespace std;
 // implementations
 
 //Replace string function
-bool yearChecker(int year)
+bool divisableByFive(int a, int b)
 {
 	return 0; // TODO: fix
 }

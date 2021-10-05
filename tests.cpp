@@ -13,11 +13,11 @@
 
 TEST_CASE("Ex1", "[example]")
 {
-    REQUIRE(yearChecker(2021)==1);
-    REQUIRE(ageChecker(2022)==1);
-    REQUIRE(ageChecker(2023)==0);
-    REQUIRE(ageChecker(2018)==1);
-    REQUIRE(ageChecker(2017)==0);
-    REQUIRE(ageChecker(-2017)==0);    
+    REQUIRE(divisableByFive(2000, 35)==1);
+    REQUIRE(divisableByFive(-25, 30)==1);
+    REQUIRE(divisableByFive(20, -35)==1);
+    REQUIRE(divisableByFive(0, 0)==1);
+    REQUIRE(divisableByFive(13, 35)==0);
+    REQUIRE(divisableByFive(0, 33)==0);
 }
 
